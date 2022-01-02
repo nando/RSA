@@ -73,3 +73,5 @@ end
 
 gem "view_component", "~> 2.47"
 gem "view_component_storybook", "~> 0.10.1"
+
+gem "rack-cors", "~> 1.1"
