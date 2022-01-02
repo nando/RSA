@@ -2,7 +2,7 @@
 
 **Proof of Concept** of a **Rails** app into **Storybook** with **Appraise.qa** for visual approval testing (kind of _Chromatic.com DIY_ ;).
 
-## Dependencies ( versions used)
+## Dependencies (+ versions used)
 
 | Name      | Version   |
 | -----     | --------- |
