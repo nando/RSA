@@ -67,4 +67,13 @@ Rails.application.configure do
 
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
+
+  # Storybook
+  config.action_controller.asset_host =  'http://localhost:3000'
+  config.middleware.insert_before 0, Rack::Cors do
+    allow do
+      origins '*'
+        resource '/rails/stories/*', :headers => :any, :methods => [:get]
+    end
+  end
 end
