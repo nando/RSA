@@ -1,10 +1,13 @@
 {
   "scripts": {
+    "examples": "./node_modules/.bin/appraise run --initial-width 1024 --examples-dir test/appraise/examples --fixtures-dir test/appraise/fixtures --results-dir test/appraise/results",
+    "approve": "./node_modules/.bin/appraise approve --examples-dir test/appraise/examples",
     "storybook": "start-storybook",
     "storybook:build": "build-storybook -o public/storybook"
   },
   "devDependencies": {
     "@storybook/addon-controls": "^6.4.9",
-    "@storybook/server": "^6.4.9"
+    "@storybook/server": "^6.4.9",
+    "appraise": "^0.6.0"
   }
 }
