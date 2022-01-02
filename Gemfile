@@ -70,3 +70,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "view_component", "~> 2.47"
+gem "view_component_storybook", "~> 0.10.1"
