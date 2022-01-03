@@ -1,0 +1,21 @@
+{
+  "title": "Button Component",
+  "stories": [
+    {
+      "name": "with_short_text",
+      "parameters": {
+        "server": {
+          "id": "button_component/with_short_text"
+        }
+      }
+    },
+    {
+      "name": "with_long_text",
+      "parameters": {
+        "server": {
+          "id": "button_component/with_long_text"
+        }
+      }
+    }
+  ]
+}
