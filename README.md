@@ -36,7 +36,7 @@
 At this point we have two options:
 
  * run our _Storybook_ server localy: `npm run storybook`, or
- * generate it static at **public/storybook/**: ´npm run storybook:build´
+ * generate it static at **public/storybook/**: `npm run storybook:build`
 
 If we have opted for the latter option (usual when deploying to a server) we should be able to enjoy the histories of our components in **http://localhost:3000/storybook/**.
 
