@@ -2,6 +2,14 @@
 
 **Proof of Concept** of a **Rails** app into **Storybook** with **Appraise.qa** for visual approval testing (kind of _Chromatic.com DIY_ ;).
 
+## The Talk (at MadridRB!! :sparkles:)
+
+[January 2022 - Component visual testing with ViewComponents and Appraise.qa](https://www.madridrb.com/events/january-2022-component-visual-testing-with-viewcompontents-and-appraise-qa-667)
+
+## The Post (TL;DR)
+
+  [Component visual testing with ViewCompontents and Appraise.qa](https://medium.com/@nando_chistaco/component-visual-testing-with-viewcompontents-and-appraise-qa-ca864654f267)
+
 ## Dependencies (+ versions used)
 
 | Name      | Version   |
@@ -23,11 +31,14 @@
 ## Run
 
     $ rake view_component_storybook:write_stories_json
-    $ bundle exec rails s
+    $ bundle exec rails server
 
-Optionally in another shell...
+At this point we have two options:
 
-    $ npm run storybook
+ * run our _Storybook_ server localy: `npm run storybook`, or
+ * generate it static at **public/storybook/**: ´npm run storybook:build´
+
+If we have opted for the latter option (usual when deploying to a server) we should be able to enjoy the histories of our components in **http://localhost:3000/storybook/**.
 
 ## Test!!
 
