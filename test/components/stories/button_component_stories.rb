@@ -1,6 +1,6 @@
 class ButtonComponentStories < ViewComponent::Storybook::Stories
   story(:with_short_text) do
-    constructor(title: "Title")
+    constructor(title: "Wee")
   end
 
   story(:with_long_text) do
