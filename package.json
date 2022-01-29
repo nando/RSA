@@ -9,5 +9,6 @@
     "@storybook/addon-controls": "^6.4.9",
     "@storybook/server": "^6.4.9",
     "appraise": "^0.6.0"
-  }
+  },
+  "version": "0.0.0"
 }
