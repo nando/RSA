@@ -6,6 +6,10 @@
 
 [January 2022 - Component visual testing with ViewComponents and Appraise.qa](https://www.madridrb.com/events/january-2022-component-visual-testing-with-viewcompontents-and-appraise-qa-667)
 
+## The Slides 📒
+
+  [At Google Presentations](https://docs.google.com/presentation/d/e/2PACX-1vSyxkQbTUjlf5aYwRcdNauN7zcQ5KmwABgLyb9CeJLeNpkq1oDfMfhyp8JEKRLjSxnC8CGdS58666Eh/pub?start=false&loop=false&delayms=3000&slide=id.g4b9b6d6b2b_0_71)
+
 ## The Post (TL;DR)
 
   [Component visual testing with ViewCompontents and Appraise.qa](https://medium.com/@nando_chistaco/component-visual-testing-with-viewcompontents-and-appraise-qa-ca864654f267)
