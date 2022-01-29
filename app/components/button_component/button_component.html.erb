@@ -1,3 +1,8 @@
 <div data-controller="button-component--button-component">
+<%- if title.length > 30 -%>
+  <%= image_tag("button-that-doesnt-do-anything.png",
+        onclick: "alert('Hi there!! Nothing here!!');") %>
+<%- else -%>
   <%= button_to title %>
+<%- end -%>
 </div>
