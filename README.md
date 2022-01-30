@@ -42,7 +42,7 @@ At this point we have two options:
  * run our _Storybook_ server localy: `npm run storybook`, or
  * generate it static at **public/storybook/**: `npm run storybook:build`
 
-If we have opted for the latter option (usual when deploying to a server) we should be able to enjoy the histories of our components in **http://localhost:3000/storybook/**.
+If we have opted for the latter option (usual when deploying to a server) we should be able to enjoy the stories of our components in **http://localhost:3000/storybook/**.
 
 ## Test!!
 
@@ -50,13 +50,17 @@ If we have opted for the latter option (usual when deploying to a server) we sho
 
 To approve all the examples in one page:
 
-    $ npm run approve -- --page "my_components"
+    $ npm run approve -- --page "awesome_component"
 
 To approve a specific example:
 
-    $ npm run approve -- --page "my_components" --example "Button w short text"
+    $ npm run approve -- --page "awesome_component" --example "Button w short text"
 
-## Credits:
+## The Beginning
+
+Joel Hawksley's talk at RailsConf 2021 "[ViewComponents in the Real World](https://www.youtube.com/watch?v=QoetqsBCsbE)"
+
+## The Credits (Thanks!!)
 
 * [View Components, Storybook and Tailwind: The Holy Trinity?](https://finnian.io/blog/view-components-storybook-tailwind-the-holy-trinity/)
 * [How to Setup Storybook with Rails View Components in under 10 Minutes](https://williamkennedy.ninja/rails/2021/07/25/how-to-setup-storybook-with-rails-view-components-in-under-10-minutes/)
